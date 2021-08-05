@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Nov 26 08:17:36 2019
+# Process ID: 2724
+# Current directory: E:/vivado/vivado experiment/depro
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9432 E:\vivado\vivado experiment\depro\depro.xpr
+# Log file: E:/vivado/vivado experiment/depro/vivado.log
+# Journal file: E:/vivado/vivado experiment/depro\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/vivado/vivado experiment/depro/depro.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+close_sim
+launch_simulation
+source pro_tb.tcl
+archive_project {E:/vivado/vivado experiment/Project_Task_7H.xpr.zip} -temp_dir {E:/vivado/vivado experiment/depro/.Xil/Vivado-2724-DESKTOP-OEPR7NL} -force
+close_sim
